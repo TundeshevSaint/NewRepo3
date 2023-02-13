@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dc8c06e2292e45b4b92f5155be3f9d31" Name="Diagram1">
+        <EntityTypeShape EntityType="FitnessClubDBKiselTundModel.Client" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="FitnessClubDBKiselTundModel.Gender" Width="1.5" PointX="0.75" PointY="2.125" />
+        <EntityTypeShape EntityType="FitnessClubDBKiselTundModel.Service" Width="1.5" PointX="5.75" PointY="0.75" />
+        <EntityTypeShape EntityType="FitnessClubDBKiselTundModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="5.75" />
+        <EntityTypeShape EntityType="FitnessClubDBKiselTundModel.User" Width="1.5" PointX="0.75" PointY="6" />
+        <AssociationConnector Association="FitnessClubDBKiselTundModel.FK_Client_Gender" />
+        <AssociationConnector Association="FitnessClubDBKiselTundModel.FK_Client_User" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
